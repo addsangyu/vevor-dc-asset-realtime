@@ -1,0 +1,160 @@
+MySQL [prm_db]> select count(1) from prm_db.model_basic;
++----------+
+| count(1) |
++----------+
+|   122115 |
++----------+
+1 row in set (0.08 sec)
+
+MySQL [prm_db]> select count(1) from prm_db.model_platform_mall;
++----------+
+| count(1) |
++----------+
+|    79116 |
++----------+
+1 row in set (0.05 sec)
+
+MySQL [prm_db]> select count(1) from prm_db.model_platform_walmart;
++----------+
+| count(1) |
++----------+
+|    30398 |
++----------+
+1 row in set (0.03 sec)
+
+MySQL [prm_db]> select count(1) from prm_db.model_platform_walmart_dsv;
++----------+
+| count(1) |
++----------+
+|     2387 |
++----------+
+1 row in set (0.01 sec)
+
+MySQL [prm_db]> select count(1) from prm_db.model_platform_aliexpress;
++----------+
+| count(1) |
++----------+
+|     6331 |
++----------+
+1 row in set (0.00 sec)
+
+MySQL [prm_db]> select count(1) from prm_db.multiattr_model_aliexpress;
++----------+
+| count(1) |
++----------+
+|   142642 |
++----------+
+1 row in set (0.09 sec)
+
+MySQL [prm_db]> select count(1) from prm_db.combine_sku;
++----------+
+| count(1) |
++----------+
+|      783 |
++----------+
+1 row in set (0.00 sec)
+
+MySQL [prm_db]> select count(1) from prm_db.combine_sku_attachment;
++----------+
+| count(1) |
++----------+
+|     1208 |
++----------+
+1 row in set (0.01 sec)
+
+MySQL [prm_db]> select count(1) from prm_db.combine_sku_history;
++----------+
+| count(1) |
++----------+
+|     1231 |
++----------+
+1 row in set (0.00 sec)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MySQL [(none)]> select count(1) from vevor_evolution.view_goods_sku_basic_info;
+nce_info;
+select count(1) from vevor_evolution.auth_goods_group;
+select count(1) from vevor_evolution.view_goods_upc_info;
+select count(1) from vevor_evolution.conf_spu;
+select count(1) from vevor_evolution.view_goods_unpacking_info;+----------+
+| count(1) |
++----------+
+|    98121 |
++----------+
+1 row in set (0.00 sec)
+
+MySQL [(none)]> select count(1) from vevor_evolution.view_goods_sku_basic_info_main;
++----------+
+| count(1) |
++----------+
+|    36060 |
++----------+
+1 row in set (0.01 sec)
+
+MySQL [(none)]> select count(1) from vevor_evolution.view_goods_package_info;
++----------+
+| count(1) |
++----------+
+|    97323 |
++----------+
+1 row in set (0.01 sec)
+
+MySQL [(none)]> select count(1) from vevor_evolution.view_goods_custom_clearance_info;
++----------+
+| count(1) |
++----------+
+|    44798 |
++----------+
+1 row in set (0.01 sec)
+
+MySQL [(none)]> select count(1) from vevor_evolution.auth_goods_group;
++----------+
+| count(1) |
++----------+
+|      126 |
++----------+
+1 row in set (0.00 sec)
+
+MySQL [(none)]> select count(1) from vevor_evolution.view_goods_upc_info;
++----------+
+| count(1) |
++----------+
+|     6100 |
++----------+
+1 row in set (0.01 sec)
+
+MySQL [(none)]> select count(1) from vevor_evolution.conf_spu;
++----------+
+| count(1) |
++----------+
+|     6950 |
++----------+
+1 row in set (0.01 sec)
+
+MySQL [(none)]> select count(1) from vevor_evolution.view_goods_unpacking_info;
++----------+
+| count(1) |
++----------+
+|     1679 |
++----------+
+1 row in set (0.01 sec)
